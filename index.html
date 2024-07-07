@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas Añadibles</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Página de Tarjetas Añadibles</h1>
+    </header>
+
+    <main>
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas">
+            <!-- Tarjetas serán añadidas aquí -->
+        </div>
+
+        
+        <div class="menu-principal">
+            <h2>Añadir Nueva Tarjeta</h2>
+            <div id="menu">
+                <label for="titulo">Título:</label>
+                <input type="text" id="titulo" name="titulo" required>
+
+                <label for="descripcion">Descripción:</label>
+                <textarea id="descripcion" name="descripcion" required></textarea>
+
+                <button id="btn-añadir">Añadir Tarjeta</button>
+                <button id="btn-limpiar">Limpiar Tarjetas</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
